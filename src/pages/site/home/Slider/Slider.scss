@@ -1,0 +1,36 @@
+.slider{
+    display: flex ;
+    width: 100%;
+    height: 700px;
+    .rights{
+        position: relative;
+        width: 100%;
+        h1{text-align: center;
+            position: absolute;
+            font-size: 48px;
+            color: white;
+            top: 30%;
+            left: 20%;
+            width: 60%;
+            text-shadow: 0px -1px 11px rgba(0, 0, 0, 1);
+        }
+        span{
+            text-shadow: 0px -1px 11px rgba(0, 0, 0, 1);
+            position: absolute;
+            left: 48%;
+            color: white;
+            border: 2px solid white;
+            padding: 10px 20px;
+            top: 50%;
+        }
+    }
+    img{
+        width: 100%;
+        height: 700px;
+        
+    }
+
+}
+.sldr{
+    width: 100%;
+}
